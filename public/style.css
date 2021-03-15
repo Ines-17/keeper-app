@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #6ddccf;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+}
+
+h1 {
+   color: #fff;
+   font-family: 'Akaya Telivigala', cursive;
+   padding: 1.5rem;
+   letter-spacing: .2rem;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100vW;
+    height: 3rem;
+}
+
+footer p {
+    color: #5b5b5b;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 1.5rem;
+    width: fit-content;
+    margin: 1rem;
+}
+
+.note h2 {
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    padding: 1rem;
+    border-bottom: 2px solid #5b5b5b;
+}
+
+.note p {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 1rem;
+}
