@@ -3,13 +3,17 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body {
+	background-color: #6ddccf;
+	background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+}
 
 html {
 	font-family: "Montserrat", sans-serif;
 }
 
 header {
-	background-color: #6ddccf;
+	background-color: #00ffea;
 	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -39,6 +43,7 @@ footer p {
 	flex-wrap: wrap;
 }
 .note {
+	position: relative;
 	background: #fff;
 	border-radius: 7px;
 	box-shadow: 2px 2px 5px #ccc;
@@ -59,4 +64,51 @@ footer p {
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	padding: 1rem;
+}
+
+.note button {
+	position: absolute;
+	padding: 0.5rem;
+	right: 0.2rem;
+	bottom: 0.2rem;
+	color: #6ddccf;
+	border: none;
+	cursor: pointer;
+}
+
+form {
+	position: relative;
+	width: 40vw;
+	margin: 1rem auto 2rem auto;
+	background: #fff;
+	padding: 15px;
+	border-radius: 7px;
+	box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input,
+form textarea {
+	width: 100%;
+	border: none;
+	padding: 0.5rem;
+	outline: none;
+	resize: none;
+	font-size: 1rem;
+}
+form input {
+	border-bottom: 1px solid rgb(138, 137, 137);
+}
+form .addBtn {
+	position: absolute;
+	right: 18px;
+	bottom: -18px;
+	background: #00ffea;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	outline: none;
 }
